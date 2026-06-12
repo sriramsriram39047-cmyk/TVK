@@ -29,7 +29,24 @@ console.log(a>b);
 console.log(a<b);
 console.log(a>=b);
 console.log(a<=b);
+//Logical Operators
+console.log("Logical Operators");
+console.log(a>5 && b>5);
+console.log(a<5 && b<5);
+console.log(a<5 || b<5);
+console.log(a>5 || b<5);
+console.log(!(a>5));
+//Unary Operation
+console.log("Unary Operation");
+console.log(c++);
+console.log(c--);
+console.log(++c);
+console.log(--c);
 
+//ternary operator
+console.log("Ternary Operator");
+var result = (a > b) ? "a is greater than b" : "b is greater than a";
+console.log(result);
 
 
 
